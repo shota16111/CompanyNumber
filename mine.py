@@ -3,7 +3,7 @@
 海外法人企業数可視化
 '''
 
-from tkinter.tix import COLUMN
+
 import numpy as np
 import pandas as pd
 import streamlit as st
