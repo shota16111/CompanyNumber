@@ -22,7 +22,7 @@ df_midle_rate = pd.read_csv(
     './CSV/CSV_data/中分類_国・地域別_増減率.csv', encoding='shift_jis')
 df_midle = pd.read_csv('./CSV/CSV_data/中分類_国・地域別.csv', encoding='shift_jis')
 
-st.title('日本企業の海外法人数')
+st.title('2019年日本企業の海外法人数')
 
 # 緯度経度のCSVファイル
 jp_lat_lon = pd.read_csv('pref_lat_lon.csv')
